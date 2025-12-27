@@ -1,0 +1,29 @@
+.content {
+  max-width: 830px;
+  margin: 64px 0;
+  padding: 0 16px;
+}
+.content__title {
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+.content__copy-right {
+  text-align: right;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.content__quote {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.content__author {
+  text-align: right;
+  margin: 16px 0 32px;
+}
+
+.content__text {
+  font-size: 16px;
+  line-height: 26px;
+}
