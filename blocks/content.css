@@ -1,4 +1,4 @@
-.content {
+.content__section {
   max-width: 830px;
   margin: 64px 0;
   padding: 0 16px;
@@ -26,4 +26,9 @@
 .content__text {
   font-size: 16px;
   line-height: 26px;
+}
+.content {
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
