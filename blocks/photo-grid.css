@@ -10,6 +10,7 @@
   width: 284px;
   height: auto;
 }
+
 @media (max-width: 1200px) {
   .photo-grid {
     grid-template-columns: repeat(2, 284px);

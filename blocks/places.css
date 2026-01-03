@@ -91,6 +91,13 @@
   margin-top: 0;
   margin-bottom: 48px;
 }
+.places__image {
+  transition: transform 0.3s ease;
+}
+
+.places__image:hover {
+  transform: scale(1.55);
+}
 @media screen and (max-width: 320px) {
   .places__container {
     grid-template-columns: 1fr;
