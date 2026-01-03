@@ -76,6 +76,11 @@
   height: 48px;
   margin-top: 48px;
 }
+.places__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: #003a7b;
+}
 .places__title {
   font-family: Inter;
   font-weight: 900;
