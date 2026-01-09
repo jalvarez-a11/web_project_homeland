@@ -138,3 +138,40 @@
     line-height: 35px;
   }
 }
+@media screen and (max-width: 320px) {
+  .places__container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "artists"
+      "media"
+      "text";
+    row-gap: 24px;
+    padding: 50px 16px;
+    margin: 0 auto;
+  }
+
+  .places__media,
+  .places__content,
+  .places__artists {
+    max-width: 100%;
+  }
+
+  .places__button {
+    width: 100%;
+  }
+
+  .places__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 24px;
+  }
+
+  .places__artists {
+    margin-bottom: 0;
+  }
+
+  .places__image:hover {
+    transform: scale(1); /* evita zoom exagerado en mobile */
+  }
+}
